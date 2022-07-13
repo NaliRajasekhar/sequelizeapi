@@ -18,8 +18,8 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.BOOLEAN
         }
     
-    })
+    });
 
     return Product
 
-}
+};

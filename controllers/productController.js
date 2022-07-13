@@ -16,7 +16,7 @@ const Review = db.reviews
 const addProduct = async (req, res) => {
 
     let info = {
-        image: req.file.path,
+        image: '',
         title: req.body.title,
         price: req.body.price,
         description: req.body.description,
