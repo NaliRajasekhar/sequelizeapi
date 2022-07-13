@@ -55,6 +55,17 @@ db.reviews.belongsTo(db.products, {
     as: 'product'
 })
 
+// db.Table2.Table1 = db.Table2.belongsTo(db.Table1, {
+//     foreignKey: {
+//         name: "sharedId"
+//     }
+// });
+// db.Table1.Table2 = db.Table1.hasOne(db.Table2, {
+//     foreignKey: {
+//         name: "sharedId"
+//     }
+// });
+
 
 
 
